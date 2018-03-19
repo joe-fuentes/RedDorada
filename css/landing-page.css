@@ -6,6 +6,7 @@
 
 body,
 html {
+    position: absolute;
     width: 100%;
     height: 100%;
 }
@@ -33,26 +34,32 @@ h6 {
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
-    text-align: center;
-    color: #f8f8f8;
-    background: url(../img/mountains.jpg) no-repeat center center;
+    text-align: left;
+    color: gold;
+    background: url(../img/RedDorada.png) no-repeat center center;
     background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .intro-message {
-    position: relative;
-    padding-top: 20%;
+    padding-top: 25%;
     padding-bottom: 20%;
 }
 
 .intro-message > h1 {
-    margin: 0;
+    margin: auto;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
+    font-size: 4em;
+    position: absolute;
+    top: 0;
 }
 
 .intro-message > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    position: absolute;
+    top: 80px;
 }
 
 .intro-divider {
@@ -68,20 +75,6 @@ h6 {
 
     .intro-message > h1 {
         font-size: 3em;
-    }
-
-    ul.intro-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.intro-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-
-    .intro-divider {
-        width: 100%;
     }
 }
 
