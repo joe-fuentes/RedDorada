@@ -35,8 +35,8 @@ h6 {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: left;
-    color: gold;
-    background: url(../img/RedDorada.png) no-repeat center center;
+    color: blue;
+/*    background: url(../img/RedDorada.png) no-repeat center center;*/
     background-size: cover;
     position: relative;
     width: 100%;
@@ -44,22 +44,33 @@ h6 {
 }
 
 .intro-message {
+    margin: auto;
     padding-top: 25%;
     padding-bottom: 20%;
 }
 
 .intro-message > h1 {
-    margin: auto;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 4em;
     position: absolute;
     top: 0;
 }
 
-.intro-message > h3 {
+.intro-message > p {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 1em;
+/*    position: relative;
+    top: 1px;*/
+}
+
+.contact-groups {
+    padding-top: 25%;
+    padding-bottom: 20%;
+    margin: auto;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 1em;
     position: absolute;
-    top: 80px;
+    top: 0;    
 }
 
 .intro-divider {
