@@ -56,16 +56,16 @@ h6 {
     top: 0;
 }
 
-.intro-message > p {
+.intro-message > h2 {
+    padding-top: 80px;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 1em;
-/*    position: relative;
-    top: 1px;*/
+    font-size: 2em;
+    position: absolute;
+    top: 3px;
 }
 
 .contact-groups {
-    padding-top: 25%;
-    padding-bottom: 20%;
+    padding-top: 20%;
     margin: auto;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 1em;
