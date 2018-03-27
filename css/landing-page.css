@@ -71,7 +71,7 @@ h6 {
 .list-inline {
     text-align: center;
     margin: auto;
-    position: absolute;
+    position: relative;
     padding-top: 40%;
 }
 
